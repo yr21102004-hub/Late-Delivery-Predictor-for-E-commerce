@@ -1,0 +1,20 @@
+{
+  "model_name": "Logistic Regression",
+  "split": "dev",
+  "accuracy": 0.6554,
+  "precision": 0.1393,
+  "recall": 0.6269,
+  "f1_score": 0.2279,
+  "roc_auc": 0.6989,
+  "confusion_matrix": [
+    [
+      8748,
+      4549
+    ],
+    [
+      438,
+      736
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.95      0.66      0.78     13297\n        Late       0.14      0.63      0.23      1174\n\n    accuracy                           0.66     14471\n   macro avg       0.55      0.64      0.50     14471\nweighted avg       0.89      0.66      0.73     14471\n"
+}

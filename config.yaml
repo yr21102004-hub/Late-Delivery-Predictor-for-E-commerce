@@ -1,0 +1,85 @@
+# ============================================================
+# E-commerce Late Delivery Prediction System
+# NextGen Institute - Machine Learning Training Program
+# Global Configuration File
+# ============================================================
+
+project:
+  name: "E-commerce Late Delivery Prediction System"
+  version: "1.0.0"
+  institution: "NextGen Institute"
+  random_state: 42
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  models: "models"
+  reports: "reports"
+  figures: "reports/figures"
+  metrics: "reports/metrics"
+
+raw_files:
+  orders: "olist_orders_dataset.csv"
+  customers: "olist_customers_dataset.csv"
+  order_items: "olist_order_items_dataset.csv"
+  payments: "olist_order_payments_dataset.csv"
+  reviews: "olist_order_reviews_dataset.csv"
+  products: "olist_products_dataset.csv"
+  sellers: "olist_sellers_dataset.csv"
+  geolocation: "olist_geolocation_dataset.csv"
+  category_translation: "product_category_name_translation.csv"
+
+processed_files:
+  merged_dataset: "merged_dataset.csv"
+  cleaned_dataset: "cleaned_dataset.csv"
+  featured_dataset: "featured_dataset.csv"
+
+model:
+  target_column: "Late_Delivery"
+  model_filename: "best_model.pkl"
+
+splitting:
+  train_size: 0.70
+  dev_size: 0.15
+  test_size: 0.15
+  stratify: true
+
+# Features used for training (after feature engineering)
+# Categorical features
+categorical_features:
+  - "product_category_name_english"
+  - "seller_state"
+  - "customer_state"
+  - "payment_type"
+
+# Numerical features
+numerical_features:
+  - "purchase_month"
+  - "purchase_day_of_week"
+  - "purchase_hour"
+  - "estimated_delivery_days"
+  - "product_weight_g"
+  - "product_volume_cm3"
+  - "freight_value"
+  - "price"
+  - "freight_to_price_ratio"
+  - "n_items"
+  - "n_sellers"
+  - "payment_installments"
+  - "total_payment_value"
+  - "geo_distance_km"
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - roc_auc
+  cv_folds: 5
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+  log_file: "reports/training.log"
+

@@ -1,0 +1,20 @@
+{
+  "model_name": "Gradient Boosting",
+  "split": "dev",
+  "accuracy": 0.9197,
+  "precision": 0.5612,
+  "recall": 0.0468,
+  "f1_score": 0.0865,
+  "roc_auc": 0.7941,
+  "confusion_matrix": [
+    [
+      13254,
+      43
+    ],
+    [
+      1119,
+      55
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.92      1.00      0.96     13297\n        Late       0.56      0.05      0.09      1174\n\n    accuracy                           0.92     14471\n   macro avg       0.74      0.52      0.52     14471\nweighted avg       0.89      0.92      0.89     14471\n"
+}

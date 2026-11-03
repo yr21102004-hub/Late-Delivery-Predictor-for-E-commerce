@@ -1,0 +1,9 @@
+model_name,split,accuracy,precision,recall,f1_score,roc_auc
+Random Forest (Tuned),dev,0.8464,0.269,0.5204,0.3547,0.7904
+Random Forest,dev,0.78,0.2008,0.5741,0.2975,0.7601
+Decision Tree,dev,0.738,0.1887,0.6755,0.295,0.7624
+Logistic Regression,dev,0.6554,0.1393,0.6269,0.2279,0.6989
+Gradient Boosting (Tuned),dev,0.9196,0.5487,0.0528,0.0963,0.7948
+Gradient Boosting,dev,0.9197,0.5612,0.0468,0.0865,0.7941
+KNN,dev,0.9183,0.2778,0.0043,0.0084,0.6805
+Baseline (Dummy),dev,0.9189,0.0,0.0,0.0,0.5

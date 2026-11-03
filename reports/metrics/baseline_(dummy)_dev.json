@@ -1,0 +1,20 @@
+{
+  "model_name": "Baseline (Dummy)",
+  "split": "dev",
+  "accuracy": 0.9189,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "roc_auc": 0.5,
+  "confusion_matrix": [
+    [
+      13297,
+      0
+    ],
+    [
+      1174,
+      0
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.92      1.00      0.96     13297\n        Late       0.00      0.00      0.00      1174\n\n    accuracy                           0.92     14471\n   macro avg       0.46      0.50      0.48     14471\nweighted avg       0.84      0.92      0.88     14471\n"
+}

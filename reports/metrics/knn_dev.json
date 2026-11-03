@@ -1,0 +1,20 @@
+{
+  "model_name": "KNN",
+  "split": "dev",
+  "accuracy": 0.9183,
+  "precision": 0.2778,
+  "recall": 0.0043,
+  "f1_score": 0.0084,
+  "roc_auc": 0.6805,
+  "confusion_matrix": [
+    [
+      13284,
+      13
+    ],
+    [
+      1169,
+      5
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.92      1.00      0.96     13297\n        Late       0.28      0.00      0.01      1174\n\n    accuracy                           0.92     14471\n   macro avg       0.60      0.50      0.48     14471\nweighted avg       0.87      0.92      0.88     14471\n"
+}

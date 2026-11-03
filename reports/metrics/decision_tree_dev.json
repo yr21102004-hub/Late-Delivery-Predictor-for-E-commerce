@@ -1,0 +1,20 @@
+{
+  "model_name": "Decision Tree",
+  "split": "dev",
+  "accuracy": 0.738,
+  "precision": 0.1887,
+  "recall": 0.6755,
+  "f1_score": 0.295,
+  "roc_auc": 0.7624,
+  "confusion_matrix": [
+    [
+      9887,
+      3410
+    ],
+    [
+      381,
+      793
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.96      0.74      0.84     13297\n        Late       0.19      0.68      0.29      1174\n\n    accuracy                           0.74     14471\n   macro avg       0.58      0.71      0.57     14471\nweighted avg       0.90      0.74      0.79     14471\n"
+}

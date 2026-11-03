@@ -1,0 +1,20 @@
+{
+  "model_name": "Random Forest",
+  "split": "dev",
+  "accuracy": 0.78,
+  "precision": 0.2008,
+  "recall": 0.5741,
+  "f1_score": 0.2975,
+  "roc_auc": 0.7601,
+  "confusion_matrix": [
+    [
+      10614,
+      2683
+    ],
+    [
+      500,
+      674
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n     On Time       0.96      0.80      0.87     13297\n        Late       0.20      0.57      0.30      1174\n\n    accuracy                           0.78     14471\n   macro avg       0.58      0.69      0.58     14471\nweighted avg       0.89      0.78      0.82     14471\n"
+}
