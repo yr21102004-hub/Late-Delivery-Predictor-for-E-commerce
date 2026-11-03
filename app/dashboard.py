@@ -82,7 +82,7 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.markdown(
         """
-        **Institution:** NextGen Institute  
+        **Institution:** [NextGen Institute](https://nextgenhub.dev/index.html)  
         **Course:** Machine Learning Track  
         **Author:** Senior ML Engineering Team  
         **Dataset:** Olist Brazilian E-Commerce  

@@ -7,7 +7,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-v1.3+-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-v1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![NextGen Institute](https://img.shields.io/badge/Institution-NextGen%20Institute-003366?style=for-the-badge)](https://nextgen.edu/)
+[![NextGen Institute](https://img.shields.io/badge/Institution-NextGen%20Institute-003366?style=for-the-badge)](https://nextgenhub.dev/index.html)
 
 <p align="center">
   <b>Developed as a Capstone Machine Learning Project at NextGen Institute</b><br>
@@ -338,6 +338,10 @@ python -m pytest tests/ -v
 
 ## 🎓 12. Training Institution & Acknowledgments
 
-This project was developed with excellence as part of the advanced Machine Learning engineering curriculum at **NextGen Institute**.
+This project was developed with excellence as part of the advanced Machine Learning engineering curriculum at **[NextGen Institute](https://nextgenhub.dev/index.html)**.
+
+- **Institution:** NextGen Institute
+- **Official Website:** [https://nextgenhub.dev/index.html](https://nextgenhub.dev/index.html)
+- **Program:** Machine Learning & AI Engineering Training Program
 
 Special gratitude to **Olist** for releasing this invaluable public logistics dataset to the machine learning research community.
