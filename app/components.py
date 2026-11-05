@@ -172,3 +172,17 @@ def render_prediction_result(result: Dict[str, Any]) -> None:
 
     st.write("")
     st.progress(prob, text=f"Estimated Late Delivery Probability: {prob:.1%}")
+
+
+# When executed directly as entrypoint on Streamlit Cloud, redirect to dashboard main
+if __name__ == "__main__":
+    import sys
+    from pathlib import Path
+
+    _ROOT = Path(__file__).resolve().parent.parent
+    if str(_ROOT) not in sys.path:
+        sys.path.insert(0, str(_ROOT))
+
+    from app.dashboard import main as _dashboard_main
+
+    _dashboard_main()
